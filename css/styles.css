@@ -8,25 +8,25 @@ body {
   color: #757575;
 }
 
-.logo-header > span {
+.logo-header > .logo-header-front {
   color: #2196f3;
 }
 
-nav a {
+.nav-links .nav-links-link {
   color: #212121;
 }
 
-.nav-links a:hover,
-.nav-links a:focus {
+.nav-links .nav-links-link:hover,
+.nav-links .nav-links-link:focus {
   color: var(--accent-color);
 }
 
-.header-adress a {
+.header-adress .header-adress-link {
   color: #757575;
 }
 
-.header-adress a:hover,
-.header-adress a:focus {
+.header-adress .header-adress-link:hover,
+.header-adress .header-adress-link:focus {
   color: var(--accent-color);
 }
 
@@ -35,24 +35,24 @@ nav a {
   color: var(--white-text-color);
 }
 
-.order-service > .button {
+.order-service > .order-service-button {
   background-color: #2196f3;
   color: var(--white-text-color);
   cursor: pointer;
 }
 
-.features h3 {
+.features .features-title {
   color: var(--header-color);
 }
 
-.activities > h2 {
+.activities > .activities-title {
   color: var(--header-color);
 }
 
-.team > h2 {
+.team > .team-title {
   color: var(--header-color);
 }
-.team h3 {
+.team .team-subtitle {
   color: var(--header-color);
 }
 
@@ -63,7 +63,7 @@ nav a {
 .footer > .logo-footer {
   color: var(--white-text-color);
 }
-.footer span {
+.footer .logo-footer-front {
   color: var(--accent-color);
 }
 
@@ -71,28 +71,28 @@ nav a {
   color: var(--white-text-color);
 }
 
-.address > a {
+.address > .address-link {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.address > a:hover,
-.address > a:focus {
+.address > .address-link:hover,
+.address > .address-link:focus {
   color: var(--accent-color);
 }
 
-.portfolio button {
+.portfolio .portfolio-button {
   background-color: #f5f4fa;
   color: #212121;
 }
 
-.portfolio button:hover,
-.portfolio button:focus,
-.portfolio button:active {
+.portfolio .portfolio-button:hover,
+.portfolio .portfolio-button:focus,
+.portfolio .portfolio-button:active {
   background-color: #2196f3;
   color: var(--white-text-color);
 }
 
-.portfolio h2 {
+.portfolio .portfolio-title {
   color: var(--header-color);
 }
 /* основной цвет текста color: #212121; */
