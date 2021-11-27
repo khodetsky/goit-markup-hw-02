@@ -8,6 +8,10 @@ body {
   color: #757575;
 }
 
+.logo-header {
+  color: #212121;
+}
+
 .logo-header > .logo-header-front {
   color: #2196f3;
 }
@@ -90,6 +94,7 @@ body {
 .portfolio .portfolio-button:active {
   background-color: #2196f3;
   color: var(--white-text-color);
+  cursor: pointer;
 }
 
 .portfolio .portfolio-title {
