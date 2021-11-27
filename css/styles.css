@@ -1,0 +1,110 @@
+:root {
+  --accent-color: #2196f3;
+  --header-color: #212121;
+  --white-text-color: #ffffff;
+}
+body {
+  background-color: #f5f4fa;
+  color: #757575;
+}
+
+.logo-header > span {
+  color: #2196f3;
+}
+
+nav a {
+  color: #212121;
+}
+
+.nav-links a:hover,
+.nav-links a:focus {
+  color: var(--accent-color);
+}
+
+.header-adress a {
+  color: #757575;
+}
+
+.header-adress a:hover,
+.header-adress a:focus {
+  color: var(--accent-color);
+}
+
+.order-service {
+  background-color: #2f303a;
+  color: var(--white-text-color);
+}
+
+.order-service > .button {
+  background-color: #2196f3;
+  color: var(--white-text-color);
+  cursor: pointer;
+}
+
+.features h3 {
+  color: var(--header-color);
+}
+
+.activities > h2 {
+  color: var(--header-color);
+}
+
+.team > h2 {
+  color: var(--header-color);
+}
+.team h3 {
+  color: var(--header-color);
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+.footer > .logo-footer {
+  color: var(--white-text-color);
+}
+.footer span {
+  color: var(--accent-color);
+}
+
+.address {
+  color: var(--white-text-color);
+}
+
+.address > a {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address > a:hover,
+.address > a:focus {
+  color: var(--accent-color);
+}
+
+.portfolio button {
+  background-color: #f5f4fa;
+  color: #212121;
+}
+
+.portfolio button:hover,
+.portfolio button:focus,
+.portfolio button:active {
+  background-color: #2196f3;
+  color: var(--white-text-color);
+}
+
+.portfolio h2 {
+  color: var(--header-color);
+}
+/* основной цвет текста color: #212121; */
+
+/* вторичный цвет текста color: #757575; */
+
+/* прозрачный цает в адресе color: rgba(255, 255, 255, 0.6); */
+
+/* белый цвет текста color: #FFFFFF; */
+
+/* задний фон футера и героя background: #2F303A; */
+
+/* задний фон всей страницы background: #F5F4FA;*/
+
+/* акцент background: #2196F3; */
