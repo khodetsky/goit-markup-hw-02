@@ -90,7 +90,7 @@ body {
 
 .order-service > .order-service-button:hover,
 .order-service > .order-service-button:focus {
-  color: #188ce8;
+  background-color: #188ce8;
 }
 
 .features {
